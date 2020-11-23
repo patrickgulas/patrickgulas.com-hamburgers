@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-hamburgers",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^4.1.0",
+    "tailwindcss": "1.9.6"
+  }
+}
