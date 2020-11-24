@@ -40,8 +40,8 @@
               You can set a size of hamburger menu by adding class to element
               with <b>tham</b> class name.
               <p class="mt-2">
-                Available values are: <b>tham--sm</b>, <b>tham--md</b>,
-                <b>tham--lg</b>.
+                Available values are: <b>tham-w-4</b>, <b>tham-w-6</b>,
+                <b>tham-w-8</b>, <b>tham-w-12</b>.
               </p>
             </div>
           </div>
@@ -87,7 +87,7 @@ export default {
     instructionMarkup() {
       return beautify.html_beautify(
         `
-          <div class="tham tham--squeeze tham--md">
+          <div class="tham tham-e-squeeze tham-w-6">
             <div class="tham-box">
               <div class="tham-inner" />
             </div>

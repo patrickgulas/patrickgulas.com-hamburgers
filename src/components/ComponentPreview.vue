@@ -36,7 +36,7 @@
       class="flex justify-center items-center space-x-8 mt-8"
     >
       <div
-        class="tham tham--squeeze tham--sm"
+        class="tham tham-e-squeeze tham-w-4"
         :class="{ 'tham-active': opened1 }"
         @click="opened1 = !opened1"
       >
@@ -45,7 +45,7 @@
         </div>
       </div>
       <div
-        class="tham tham--squeeze tham--md"
+        class="tham tham-e-squeeze tham-w-8"
         :class="{ 'tham-active': opened2 }"
         @click="opened2 = !opened2"
       >
@@ -54,7 +54,7 @@
         </div>
       </div>
       <div
-        class="tham tham--squeeze tham--lg"
+        class="tham tham-e-squeeze tham-w-12"
         :class="{ 'tham-active': opened3 }"
         @click="opened3 = !opened3"
       >
@@ -89,9 +89,9 @@ export default Vue.extend({
     code() {
       return beautify.html_beautify(
         `
-      <!-- Small -->  
+      <!-- w-4 -->  
       <div
-        class="tham tham--squeeze tham--sm"
+        class="tham tham-e-squeeze tham-w-4"
         :class="{ 'tham-active': opened }"
       >
         <div class="tham-box">
@@ -99,9 +99,9 @@ export default Vue.extend({
         </div>
       </div>
 
-      <!-- Medium -->  
+      <!-- w-8 -->  
       <div
-        class="tham tham--squeeze tham--md"
+        class="tham tham-e-squeeze tham-w-8"
         :class="{ 'tham-active': opened }"
       >
         <div class="tham-box">
@@ -109,9 +109,9 @@ export default Vue.extend({
         </div>
       </div>
 
-      <!-- Large -->  
+      <!-- w-12 -->  
       <div
-        class="tham tham--squeeze tham--lg"
+        class="tham tham-e-squeeze tham-w-12"
         :class="{ 'tham-active': opened }"
       >
         <div class="tham-box">

@@ -10,7 +10,7 @@
     "gridsome": "^0.7.0",
     "js-beautify": "^1.13.0",
     "prismjs": "^1.22.0",
-    "tailwind-hamburgers": "^1.0.1",
+    "tailwind-hamburgers": "^1.0.2",
     "vue-prism-component": "^1.2.0"
   },
   "devDependencies": {
