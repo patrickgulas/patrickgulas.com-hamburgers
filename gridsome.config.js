@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Tailwind Hamburgers',
+  pathPrefix: '/hamburgers',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
