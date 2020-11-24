@@ -1,9 +1,7 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 module.exports = {
   theme: {
     extend: {},
   },
   variants: {},
-  plugins: [],
+  plugins: [require('tailwind-hamburgers')],
 }

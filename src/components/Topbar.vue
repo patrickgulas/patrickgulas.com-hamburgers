@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-100">
-    <div class="container">
-      <div class=" px-4 py-6 text-center font-bold flex flex-col">
+    <div class="container mx-auto">
+      <div class="px-4 py-6 text-center font-bold flex flex-col">
         Tailwind Hamburgers
         <a
           class="self-center mt-2 text-gray-600 hover:text-gray-700"
